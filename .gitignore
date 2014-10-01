@@ -2,10 +2,6 @@
 .rake_tasks~
 .bundle
 
-config/database.yml
-config/config.yml
-config/deploy.rb
-config/environments/production.rb
 
 public/*.tar
 
@@ -18,5 +14,4 @@ bin/*
 vendor/bundler_gems/*
 !vendor/bundler_gems/ruby/1.8/cache/
 public/assets*
-config/environments/development.rb
 .sass-cache
