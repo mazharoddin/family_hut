@@ -23,10 +23,9 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
 group :test do 
   gem 'rspec-rails'
-  gem 'shoulda', :git => 'git://github.com/3den/shoulda.git'
+  gem 'shoulda', :git => 'git@github.com:thoughtbot/shoulda.git'
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'timecop'
