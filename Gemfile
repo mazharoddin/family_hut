@@ -4,13 +4,13 @@ gem 'rails', '3.2.1'
 gem 'will_paginate', "~> 3.0.pre2"
 gem 'inherited_resources'
 gem 'authlogic'
-gem 'formtastic'
+gem 'formtastic-rails3'
 gem 'mysql2', "~> 0.3.7", :git => "git://github.com/brianmario/mysql2.git"
+gem 'mysql', '~> 2.8.1'
 gem 'paperclip'
 gem 'RedCloth'
 gem 'rails-i18n'
 gem 'haml'
-
 gem 'whenever'
 
 # Gems used only for assets and not required
